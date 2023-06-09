@@ -1,0 +1,63 @@
+.footer {
+  font-family: var(--font-default);
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg-footer {
+  vertical-align: middle;
+  object-fit: cover;
+  width: 100%;
+  min-height: 550px;
+}
+
+.footer-list {
+  width: 100%;
+  height: max-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 80px 0;
+  height: 100%;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 32px;
+}
+
+.content {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.p {
+  color: var(--gray);
+  width: 300px;
+  line-height: 1.6;
+}
+
+.star-i {
+  font-size: 20px;
+  color: var(--green);
+}
+
+.icon {
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: var(--blue);
+}

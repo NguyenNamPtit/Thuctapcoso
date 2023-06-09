@@ -1,0 +1,15 @@
+.container-live {
+  width: 100%;
+  position: relative;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: black;
+  color: white;
+  border: 2px solid var(--gray);
+  font-family: var(--font-default);
+}

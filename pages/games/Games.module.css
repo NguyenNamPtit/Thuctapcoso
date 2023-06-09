@@ -1,0 +1,76 @@
+.section-games {
+  background-color: var(--bg);
+  padding: 50px 0;
+  color: white;
+  min-height: 1250px;
+}
+
+.box-filter {
+  width: 100%;
+  padding: 30px;
+  background-color: var(--dark-2);
+}
+
+.box-list-games {
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.title {
+  font-weight: 700;
+  font-family: var(--font-title);
+  font-size: 24px;
+  color: white;
+}
+
+.box-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  font-family: var(--font-default);
+  width: 100%;
+}
+
+.ip-search{
+  max-width: 240px;
+  padding: 10px 30px;
+  border-radius: 0%;
+  border: 1px solid var(--gray);
+  background-color: var(--bg);
+  color: var(--gray);
+  font-family: var(--font-default);
+  font-size: 16px;
+}
+
+.pagigation {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* card */
+.name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.checkbox input{
+  width: 25px;
+  height: 25px;
+  border-radius: 0 !important;
+  border: 2px solid var(--blue) !important;
+  cursor: pointer;
+}

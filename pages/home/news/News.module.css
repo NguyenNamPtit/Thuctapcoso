@@ -1,0 +1,12 @@
+.slider-news {
+  width: 100%;
+}
+
+.control {
+  display: flex;
+  gap: 0 10px;
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 32px;
+  color: var(--gray);
+}

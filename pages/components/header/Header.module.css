@@ -1,0 +1,80 @@
+.header {
+  width: 100%;
+  color: white;
+  font-family: var(--font-default);
+  height: 141px;
+  background-color: var(--bg);
+  padding: 0;
+}
+
+.bg-header {
+  width: 100%;
+  height: max-content;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--bg);
+  z-index:100;
+  padding: 0;
+  border-bottom: 1px solid var(--gray);
+}
+
+.header-top {
+  width: 100%;
+  border-bottom: 1px solid var(--gray-light);
+  padding: 0;
+  height: max-content;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  color: var(--blue);
+}
+
+.flag {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.number-icon {
+  position: absolute;
+  right: -10px;
+  top: -15px;
+  font-size: 12px;
+  background-color: var(--blue);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-icon {
+  color: white;
+  position: relative;
+}
+
+.link-icon:hover .number-icon {
+  color: white;
+}
+
+.header-bottom {
+  width: 100%;
+  padding: 0;
+  height: 80px;
+}
+
+.ip-search{
+  width: 240px;
+  padding: 10px 30px;
+  border-radius: 0%;
+  border: 1px solid var(--gray);
+  background-color: var(--bg);
+  color: var(--gray);
+  font-family: var(--font-default);
+  font-size: 16px;
+}

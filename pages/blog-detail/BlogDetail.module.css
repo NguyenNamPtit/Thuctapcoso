@@ -1,0 +1,86 @@
+.section-blog-detail {
+  width: 100%;
+  background-color: var(--bg);
+  font-family: var(--font-default);
+  padding: 100px 0;
+  position: relative;
+}
+
+.box-left {
+  width: 100%;
+  color: white;
+  padding: 30px 20px;
+}
+
+.box-right {
+  width: 100%;
+  color: white;
+  padding: 30px 30px;
+  background-color: var(--dark);
+}
+
+.recent-posts {
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.archives {
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.categories {
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tags {
+  padding: 5px 10px;
+  background-color: var(--blue);
+  color: white;
+}
+
+.tags:hover {
+  background-color: white;
+  color: var(--dark);
+}
+
+.title {
+  font-weight: 700;
+  font-family: var(--font-title);
+  font-size: 24px;
+  color: white;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.box-user {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 40px 0 20px 0;
+}
+
+.box-user img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.title-re-post {
+  color: white;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}

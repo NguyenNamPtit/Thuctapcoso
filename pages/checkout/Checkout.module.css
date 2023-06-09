@@ -1,0 +1,47 @@
+.section-checkout {
+  width: 100%;
+  background-color: var(--bg);
+  color: white;
+  font-family: var(--font-default);
+}
+
+.title {
+  font-family: var(--font-title);
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+}
+
+.box-left {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.box-right {
+  width: 100%;
+  background-color: var(--dark);
+  padding: 20px;
+}
+
+.box-order {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-order {
+  border-bottom: 1px solid var(--gray);
+  padding-bottom: 16px;
+}
+
+.no-game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0;
+  gap: 32px;
+  text-align: center;
+  background-color: var(--bg);
+}

@@ -1,0 +1,15 @@
+.section-help {
+  width: 100%;
+  padding: 50px 0;
+  background-color: var(--bg);
+  color: white;
+  font-family: var(--font-default);
+}
+
+.title {
+  font-family: var(--font-title);
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}

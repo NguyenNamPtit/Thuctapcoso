@@ -1,0 +1,19 @@
+.seciton-all-games {
+  width: 100%;
+}
+
+.section-people {
+  width: 100%;
+  background-color: var(--dark);
+  padding: 40px 0;
+}
+
+.section-feature {
+  width: 100%;
+  padding: 60px 0px 40px 0px;
+  background-color: var(--bg);
+}
+
+.section-count {
+  width: 100%;
+}

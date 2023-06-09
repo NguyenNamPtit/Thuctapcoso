@@ -1,0 +1,81 @@
+/* section slider */
+
+.section-sldier {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg-slider {
+  vertical-align: middle;
+  object-fit: cover;
+  width: 100%;
+  min-height: 800px;
+}
+
+.Container-slider {
+  width: 100%;
+  height: max-content;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  height: max-content;
+}
+
+/* section service */
+
+.section-service {
+  width: 100%;
+  background-color: var(--bg);
+}
+
+/* section-offer */
+
+.section-offer {
+  width: 100%;
+  padding: 100px 0;
+  background-color: var(--bg);
+}
+
+/* section-categories */
+
+.section-categories {
+  width: 100%;
+  background-color: var(--bg);
+  padding: 40px 0;
+}
+
+/* section-news */
+
+.section-news {
+  width: 100%;
+  background-color: var(--dark);
+  padding: 40px 0;
+}
+
+/* comment user */
+.section-comments {
+  width: 100%;
+  background-color: var(--bg);
+  padding: 40px 0;
+}
+
+/* section-dev */
+.section-dev {
+  width: 100%;
+  background-color: var(--dark);
+  padding: 20px 0;
+}
+
+/* section-sale */
+.section-sale {
+  width: 100%;
+  background-color: var(--bg);
+}
+
+/* seciton-live */
+
+.section-live {
+  width: 100%;
+}

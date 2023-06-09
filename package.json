@@ -1,0 +1,48 @@
+{
+  "name": "thuctapcoso",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/dm-sans": "^4.5.9",
+    "@fontsource/josefin-sans": "^4.5.11",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.17",
+    "@next/font": "13.0.7",
+    "@reduxjs/toolkit": "^1.9.1",
+    "bootstrap": "^5.2.3",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.0.7",
+    "firebase": "^9.15.0",
+    "next": "13.0.7",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-countup": "^6.4.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.40.0",
+    "react-redux": "^8.0.5",
+    "react-scroll-trigger": "^0.6.14",
+    "react-toastify": "^9.1.1",
+    "sweetalert2": "^11.4.8",
+    "swiper": "^8.4.5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "elgames"
+  },
+  "author": "trung",
+  "license": "ISC",
+  "devDependencies": {}
+}

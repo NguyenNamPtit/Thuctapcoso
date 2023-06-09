@@ -1,0 +1,59 @@
+.secion-info {
+  width: 100%;
+  text-align: center;
+  font-family: var(--font-default);
+  background-color: var(--bg);
+  padding: 50px 0;
+}
+
+.title {
+  font-weight: 700;
+  font-family: var(--font-title);
+  font-size: 24px;
+  color: white;
+}
+
+.box-info {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.card-info {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid var(--blue);
+  gap: 32px;
+  padding: 30px;
+}
+
+.icon {
+  color: var(--blue);
+  font-size: 100px;
+}
+
+.seciton-map {
+  width: 100%;
+  background-color: var(--dark);
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+  border: 0;
+  padding: 0;
+}
+
+.section-contact {
+  width: 100%;
+  background-color: var(--bg);
+  font-family: var(--font-default);
+  color: white;
+}

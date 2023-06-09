@@ -1,0 +1,95 @@
+.section-wishlist {
+  width: 100%;
+  padding: 50px 0;
+  background-color: var(--bg);
+  font-family: var(--font-default);
+  color: white;
+}
+
+.title {
+  font-family: var(--font-title);
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.box-remove {
+  padding: 10px 30px;
+  border: 1px solid white;
+  text-align: center;
+  background-color: var(--dark-2);
+  color: white;
+  font-family: var(--font-default);
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.2s linear;
+}
+
+.box-remove:hover {
+  background-color: var(--gray);
+}
+
+.box-price-wishlist {
+  width: max-content;
+  display: flex;
+  align-items: center;
+}
+
+.box-sale {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.box-price {
+  padding: 10px 20px;
+  background-color: var(--bg);
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 60px;
+}
+
+.box-view {
+  padding: 10px 20px;
+  background-color: var(--blue);
+  color: white;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.box-view:hover {
+  background-color: white;
+  color: var(--bg);
+}
+
+.text-sale {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: var(--gray);
+}
+
+.no-game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0;
+  gap: 32px;
+  text-align: center;
+  background-color: var(--bg);
+}

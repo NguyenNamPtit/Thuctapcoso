@@ -1,0 +1,25 @@
+.slider-home {
+  width: 100%;
+}
+
+.img-thumbnail {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.button{
+    padding: 16px 40px;
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    font-family: var(--font-default);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.button:hover{
+    background-color: white;
+    color: var(--bg);
+}
