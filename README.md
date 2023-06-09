@@ -13,5 +13,3 @@ yarn dev
 
 # Deloy on vercel
 
-* sale website
-# Copyright by Duc Trung
